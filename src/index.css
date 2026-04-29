@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Orbitron", ui-monospace, SFMono-Regular, monospace;
+}
+
+@keyframes bounce-visualizer {
+  0% { transform: scaleY(0.4); }
+  100% { transform: scaleY(1.3); }
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+}
